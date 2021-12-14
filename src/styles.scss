@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #ea4630;
+  background: #ff0a0a;
 }
 
 .container {
@@ -15,7 +15,7 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 50px;
   font-weight: bolder;
-  color: green;
+  color: #406e35;
   margin-left: 200px;
 }
 
@@ -23,11 +23,6 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 25px 0;
-
-  &.focus-trigger:focus {
-    outline: 5px solid greenyellow;
-    outline-offset: 5px;
-  }
 
   .flip-card-inner {
     transform-style: preserve-3d;
@@ -55,13 +50,13 @@ h1 {
       &.front {
         transform: rotateY(0);
         background-color: #2d2d2d;
-        color: #fff;
+        color: #aba4c7;
       }
 
       &.back {
         transform: rotateY(180deg);
-        background-color: #fff;
-        color: #2d2d2d;
+        background-color: #e09200;
+        color: #300fc2;
       }
     }
   }
