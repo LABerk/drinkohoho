@@ -6,16 +6,16 @@ import Board from "./Board";
 function App() {
   return (
     <div className="App">
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
-      <div class="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
+      <div className="snowflake">❅</div>
       <Header />
       <Board />
     </div>
