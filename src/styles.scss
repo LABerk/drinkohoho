@@ -1,27 +1,28 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #ff0a0a;
+  background: #f78985;
 }
 
 .container {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 600px;
   padding: 15px;
 }
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
   color: #406e35;
-  margin-left: 200px;
+  margin-top: 50px;
+  margin-left: 125px;
 }
 
 .flip-card-outer {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin: 25px 0;
 
   .flip-card-inner {
@@ -56,7 +57,7 @@ h1 {
       &.back {
         transform: rotateY(180deg);
         background-color: #e09200;
-        color: #300fc2;
+        color: #0e4709;
       }
     }
   }
@@ -65,7 +66,7 @@ h1 {
 //snow!! attempt
 
 body {
-  background: red;
+  background: #ff170f;
 }
 /* customizable snowflake styling */
 .snowflake {
