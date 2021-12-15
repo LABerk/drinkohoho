@@ -1,30 +1,33 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #f78985;
+  background: #fd0a02;
   -webkit-tap-highlight-color: transparent;
 }
 
 .container {
   position: relative;
+  justify-content: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 600px;
   padding: 15px;
 }
 
 h1 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Luminari, Fantasy;
   font-size: 40px;
   font-weight: bolder;
   color: #406e35;
   margin-top: 50px;
-  margin-left: 125px;
+  margin-left: 75px;
+  text-shadow: 4px 3px 0px #01362d;
 }
 
 .flip-card-outer {
   width: 100px;
   height: 100px;
-  margin: 25px 0;
+  margin: 25px;
 
   .flip-card-inner {
     transform-style: preserve-3d;
@@ -58,20 +61,15 @@ h1 {
       &.back {
         transform: rotateY(180deg);
         background-color: #e09200;
-        color: #0e4709;
+        color: #21441d;
       }
     }
   }
 }
 
-//snow!! attempt
-
-body {
-  background: #ff170f;
-}
 /* customizable snowflake styling */
 .snowflake {
-  color: #fff;
+  color: rgb(178, 236, 196);
   font-size: 1em;
   font-family: Arial;
   text-shadow: 0 0 1px #000;
@@ -187,17 +185,4 @@ body {
   left: 90%;
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s;
-}
-/* Demo Purpose Only*/
-.demo {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  display: block;
-  margin: 0 auto;
-  padding: 15px 0;
-  text-align: center;
-}
-.demo a {
-  font-family: "Raleway", sans-serif;
-  color: #000;
 }
