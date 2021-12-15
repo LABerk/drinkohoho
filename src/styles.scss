@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #fd0a02;
+  background: url("https://images.unsplash.com/photo-1512389055488-8d82cb26ba6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMnxlZFFPbWloZVV0WXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: repeat;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -18,10 +19,10 @@ h1 {
   font-family: Luminari, Fantasy;
   font-size: 30px;
   font-weight: bolder;
-  color: #406e35;
+  color: #0f3804;
   margin-top: 50px;
   margin-left: 75px;
-  text-shadow: 4px 3px 0px #01362d;
+  text-shadow: 6px 6px 4px #01362d;
 }
 
 .form {
@@ -114,10 +115,10 @@ h1 {
 
 /* customizable snowflake styling */
 .snowflake {
-  color: rgb(178, 236, 196);
+  color: rgb(214, 233, 243);
   font-size: 1em;
   font-family: Arial;
-  text-shadow: 0 0 1px #000;
+  text-shadow: 0 0 1px rgb(255, 187, 0);
 }
 
 @-webkit-keyframes snowflakes-fall {
