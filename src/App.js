@@ -3,6 +3,7 @@ import "./styles.scss";
 import Header from "./Header";
 import Board from "./Board";
 import Snowflakes from "./Snowflakes";
+import MovieForm from "./Form";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Snowflakes />
       <Header />
       <Board />
+      <MovieForm />
     </div>
   );
 }

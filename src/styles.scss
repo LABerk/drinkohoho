@@ -24,6 +24,48 @@ h1 {
   text-shadow: 4px 3px 0px #01362d;
 }
 
+.form {
+  position: relative;
+  margin-left: 150px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 800px;
+  padding: 20px;
+  font-family: Luminari, Fantasy;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #eecb06;
+  text-shadow: 6px 6px 6px #01362d;
+}
+
+.form-field1 {
+  margin-left: 96px;
+}
+
+.form-field2 {
+  margin-left: 90px;
+}
+
+.form-field3 {
+  margin-left: 40px;
+}
+
+.form-submit {
+  background-color: #8e8ec5;
+  border: black;
+  color: rgb(0, 0, 0);
+  margin-left: 100px;
+  text-align: center;
+  text-decoration: none;
+  flex-shrink: 1;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100px;
+  height: 20x;
+}
+
 .flip-card-outer {
   width: 100px;
   height: 100px;
