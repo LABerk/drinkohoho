@@ -1,18 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.scss";
 import Card from "./Card";
-import bingoData from "./store/bingoData";
+import { holidayData } from "./store/bingoData";
 
-function Board() {
-  const row1 = bingoData.filter((item, i) => {
+function HolidayBoard() {
+  const row1 = holidayData.filter((item, i) => {
     return i <= 4;
   });
 
-  const row2 = bingoData.filter((item, i) => {
+  const row2 = holidayData.filter((item, i) => {
     return i > 4 && i <= 9;
   });
 
-  const row3 = bingoData.filter((item, i) => {
+  const row3 = holidayData.filter((item, i) => {
     return i > 9 && i <= 15;
   });
 
@@ -43,4 +43,4 @@ function Board() {
   );
 }
 
-export default Board;
+export default HolidayBoard;

@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.scss";
 import Header from "./Header";
-import Board from "./Board";
+import HolidayBoard from "./HolidayBoard";
 import Snowflakes from "./Snowflakes";
 import MovieForm from "./Form";
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Snowflakes />
       <Header />
-      <Board />
+      <HolidayBoard />
       <MovieForm />
     </div>
   );

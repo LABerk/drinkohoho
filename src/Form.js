@@ -73,7 +73,7 @@ function MovieForm() {
       </label>
 
       <label>
-        Drunk-drank?:
+        Drunk?:
         <input
           id="drunk"
           className="form-field3"

@@ -1,4 +1,4 @@
-const bingoData = [
+export const holidayData = [
   { id: 1, variant: "click", front: "Bad Special Effects", back: "Take a sip" },
   { id: 2, variant: "click", front: "Melissa Joan Hart", back: "Take a shot" },
   { id: 3, variant: "click", front: "Baking Fight", back: "Take a shot" },
@@ -40,5 +40,3 @@ const bingoData = [
   },
   { id: 15, variant: "click", front: "Time Travel", back: "Finish your Drink" },
 ];
-
-export default bingoData;
