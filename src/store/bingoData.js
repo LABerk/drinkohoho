@@ -18,9 +18,9 @@ export const holidayData = [
     id: 6,
     variant: "click",
     front: "Workaholic",
-    back: "Finish your Sip",
+    back: "Give a Sip",
   },
-  { id: 7, variant: "click", front: "Ghost", back: "Give a Sip" },
+  { id: 7, variant: "click", front: "Ghost", back: "Social" },
   { id: 8, variant: "click", front: "Precocious Child", back: "Take a Sip" },
   { id: 9, variant: "click", front: "Magical Weirdo", back: "Be Magical" },
   { id: 10, variant: "click", front: "One Tree Hill", back: "Take a sip" },
@@ -78,8 +78,8 @@ export const holidayData = [
   {
     id: 21,
     variant: "click",
-    front: "Male lead is awe-struck by female lead in underwhelming dress",
-    back: "Take a Sip",
+    front: "Awe-struck by lead in underwhelming dress",
+    back: "Social",
   },
   {
     id: 22,
@@ -90,10 +90,10 @@ export const holidayData = [
   {
     id: 23,
     variant: "click",
-    front: "Vague foreign accent",
-    back: "Take a Sip",
+    front: "Bad Foreign Accent",
+    back: "Take a Shot",
   },
-  { id: 24, variant: "click", front: "Decorating Montage", back: "Take a Sip" },
+  { id: 24, variant: "click", front: "Decorating Montage", back: "Social" },
   {
     id: 25,
     variant: "click",
@@ -118,6 +118,6 @@ export const holidayData = [
     id: 30,
     variant: "click",
     front: "Horse Drawn Carriage Ride",
-    back: "Take a Sip",
+    back: "Social",
   },
 ];
