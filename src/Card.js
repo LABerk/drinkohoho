@@ -23,7 +23,7 @@ function Card({ card }) {
       >
         <div className="card front justify-content-around ">
           <div className="card-body d-flex justify-content-center align-items-center col px-md-100">
-            <p className="card-text fs-6 text-wrap fw-bold">{card.front}</p>
+            <p className="card-text fs-7 text-wrap fw-bold">{card.front}</p>
           </div>
         </div>
         <div className="card back">
